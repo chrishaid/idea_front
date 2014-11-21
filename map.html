@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Weekly Attendence Report</title>
+    <title>KIPP IDEA</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
@@ -15,9 +15,11 @@
   </head>
   <body>
 
-<div class="container">
+<!--<div class="container">-->
 <nav class="navbar navbar-default" role="navigation">
-   <a class="brand"><img src="images/kipp_idea.png"></a>
+   <a class="navbar-brand"> 
+    <img class="img-responsive" height="50" width="100" src="images/kipp_idea_2.png"/>
+</a>
 
   <!-- Brand and toggle get grouped for better mobile display -->
   <div class="navbar-header">
@@ -35,6 +37,8 @@
       <li><a href="/index.html">Weekly Attendance Report</a></li>
       <li class="active"><a href="#">Assessments</a></li>
       <li><a href="/recruit.html">Student Recruitment</a></li>
+       <li><a href="/enroll.html">Enrollment</a>
+      </li>
        <li class="disabled"><a href="#">KTC</a></li>
        <li class="disabled"><a href="#">Q12 & HSR</a></li>
     </ul>
@@ -47,10 +51,12 @@
     <script src="js/bootstrap.min.js"></script>
   
     <div class="page-header">
-	<h1>Assessments<small> Are our kids climbing the mountain to college?</small></h1>
+	<h3> &nbsp; Assessments
+          <small> Are our kids climbing the mountain to college?</small>
+       </h3>
     </div>
     <div style=" height: 100%">
-      <iframe src="/shiny/chaid/map/" width="100%" height="100%" seamless>
+      <iframe src="/shiny/chaid/map/" width="100%" height="100%" seamless frameborder=0>
 
     </div>
   </body>
